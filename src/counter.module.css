@@ -1,0 +1,78 @@
+.counter{
+  display: flex;
+  max-width: 900px;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+.error{
+  color:  red;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.errorInput{
+  color: red;
+  border-color: red;
+  background-color: rgba(255,0,0, 0.2);
+}
+.input{
+  border-color: gray;
+}
+.enter{
+  font-size: 15px;
+  font-weight: bold;
+}
+.display{
+  border: 2px solid #555;
+  border-radius: 5px;
+  padding: 30px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.settings{
+  border: 2px solid #555;
+  border-radius: 5px;
+  padding: 50px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.inputWrapper{
+  border: 2px solid #555;
+  border-radius: 5px;
+  padding: 30px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 15vh;
+}
+button{
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.displayWrapper{
+  border: 2px solid #555;
+  border-radius: 5px;
+  padding: 50px 60px;
+}
+.buttonWrapper{
+  border: 2px solid #555;
+  border-radius: 5px;
+  padding: 30px 35px;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonSet{
+  margin-right: 10px;
+}
+.buttonReset{
+  margin-left: 10px;
+}
